@@ -1,0 +1,54 @@
+.c{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 250px;
+    margin-left: 350px;
+    font-size: 35px;
+    color: aliceblue;
+}
+.head
+{
+    display: flex;
+}
+.li a{
+ font-family:'Times New Roman', Times, serif;
+ font-size: 25px;
+ width: fit-content;
+ margin-left: 45px;
+ color:aliceblue;
+ text-decoration:none;
+}
+.li a:hover
+{
+    color:aqua;
+}
+.li{
+    float: right;
+    margin-left: 1240px;
+    margin-top: 9px;
+}
+body{
+    background-image: url(http://getwallpapers.com/wallpaper/full/2/1/b/1503586-free-desktop-wallpaper-travel-1920x1080-for-xiaomi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body .h1
+{
+    animation:col 4s infinite;
+}
+@keyframes col {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
